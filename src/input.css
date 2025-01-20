@@ -44,5 +44,40 @@
     bottom: 60px;
     background-color: rgb(156, 163, 175);
 }
+@media screen and ( max-width:1210px ) {
+   .navigation{
+        position: absolute;
+        display: flex;
+        top: 56px;
+        right: -100%;
+        
+        flex-direction: column;
+        background-color: rgb(34, 197, 14);
+
+        height: 400px;
+        width: 300px;
+    }
+    .bars{
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        cursor: pointer;
+        
+    }
+    .navigationHover{
+        position: absolute;
+        display: flex;
+        top: 56px;
+        right: 0;
+        transition: 1s ease-in-out;
+        flex-direction: column;
+        background-color: rgb(34, 197, 14);
+    
+        height: 400px;
+        width: 300px;
+    }
+    
+}
+
 
 }
