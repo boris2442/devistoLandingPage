@@ -972,4 +972,11 @@ video {
     height: 400px;
     width: 300px;
   }
+
+  .remove2{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+  }
 }
