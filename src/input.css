@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities{
+.headerBefore::before{
+    content:"";
+    position: absolute;
+    height: 2px;
+    width: 100vw;
+    bottom: 4px;
+    background-color: rgb(156, 163, 175);
+}
+
+}
