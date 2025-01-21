@@ -35,3 +35,12 @@ window.addEventListener("scroll", ()=>{
     navigation2.classList.add("navigationServicesClick"); 
     navigation2.classList.remove("navigationServices")
 })
+
+const sr=ScrollReveal({
+    direction:'vertical',
+    duration:1500,
+    origin:'top',
+    distance:'30px'
+})
+
+sr.reveal(".copy, .footerContainer, .childPablo, .pablo, .container-blog, .navigationServicesClick, .heroSection, .text", {interval:200})
