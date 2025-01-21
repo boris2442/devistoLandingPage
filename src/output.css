@@ -1050,4 +1050,11 @@ video {
     /* flex-direction: column; */
     flex-wrap: wrap;
   }
+
+  @media screen  and (max-width:500px){
+    .childPablo{
+      display: flex;
+      flex-direction: column;
+    }
+  }
 }

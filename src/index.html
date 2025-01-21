@@ -1,266 +1,287 @@
 <!doctype html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="./output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./output.css" rel="stylesheet">
 </head>
-<body class="bg-white overflow-x-hidden" >
+
+<body class="bg-white overflow-x-hidden">
     <div class="w-[100vw] h-[40px] bg-green-500"></div>
     <header class="headerBefore grid grid-cols-2 relative">
         <div class="p-4 ">
-            <img src="/asset/devinsto.jpg" alt="image du logo " class="w-25 h-[30px]" >
+            <img src="/asset/devinsto.jpg" alt="image du logo " class="w-25 h-[30px]">
         </div>
         <nav class="items-center ">
             <ul class="navigation flex justify-center gap-4  p-4 ">
                 <li>
                     <a href="#" class="text-2xl font-bold ">Formations</a>
                 </li>
-           
+
                 <li>
                     <a href="#" class="text-2xl font-bold" id="blog">Blog</a>
                 </li>
-         
+
                 <li>
                     <a href="#" class="text-2xl font-bold">Forum</a>
                 </li>
-        
+
                 <li>
                     <a href="#" class="text-2xl font-bold">S'inscrire</a>
                 </li>
-         
+
                 <li>
                     <a href="#" class="text-2xl font-bold">Se connecter</a>
                 </li>
             </ul>
         </nav>
-       
 
-            <i class="fa-solid fa-bars bars text-2xl absolute right-[-100px] top-[10px]"></i>
-            <i class="fa-sharp fa-solid fa-x text-2xl absolute  right-[-100px]  opacity-0"></i>
-    
+
+        <i class="fa-solid fa-bars bars text-2xl absolute right-[-100px] top-[10px]"></i>
+        <i class="fa-sharp fa-solid fa-x text-2xl absolute  right-[-100px]  opacity-0"></i>
+
     </header>
     <!-- <hr class="h-[5px] w-[100vw]"> -->
-  <!-- <h1 class="text-3xl font-bold underline">
+    <!-- <h1 class="text-3xl font-bold underline">
     Hello world!
   </h1> -->
-<main class="">
-<section id="hero" class="pl-[70px]">
-    <div class="grid grid-cols-2 " >
-        <div class="">
-    <h1 class="text-7xl text-green-500 font-bold">Devinsto</h1>
-    <h2 class="text-5xl font-[700]">Apprenez, Créer, <br> Collaborez sans limites.</h2>
-    <p class="text-2xl font-[600] pt-[20px] text-gray-500">La plateforme ultime pour apprendre, collaborer et <br> construire des projets en developpement web, <br>graphisme et bien plus encore</p>
-    <div class="pt-[30px] flex gap-10 justify-start ">
-        <a href="#" class="bg-green-500 px-4 py-2 text-white rounded-full ">créer votre compte</a>
-        <a href="#" class="text-green-500 border-2 px-4 py-2 border-green-500 font-bold rounded-full">Parcourir les cours</a>
-    </div>
-</div>
-<div class="w-[90%] h-[90%]  z-1">
-    <img src="/asset/imageHerosection.png" alt="" class="flex justify-center items-center w-[90%] ">
-</div>
-</div>
-</section>
+    <main class="">
+        <section id="hero" class="pl-[70px]">
+            <div class="grid grid-cols-2 ">
+                <div class="">
+                    <h1 class="text-7xl text-green-500 font-bold">Devinsto</h1>
+                    <h2 class="text-5xl font-[700]">Apprenez, Créer, <br> Collaborez sans limites.</h2>
+                    <p class="text-2xl font-[600] pt-[20px] text-gray-500">La plateforme ultime pour apprendre,
+                        collaborer et <br> construire des projets en developpement web, <br>graphisme et bien plus
+                        encore</p>
+                    <div class="pt-[30px] flex gap-10 justify-start ">
+                        <a href="#" class="bg-green-500 px-4 py-2 text-white rounded-full ">créer votre compte</a>
+                        <a href="#"
+                            class="text-green-500 border-2 px-4 py-2 border-green-500 font-bold rounded-full">Parcourir
+                            les cours</a>
+                    </div>
+                </div>
+                <div class="w-[90%] h-[90%]  z-1">
+                    <img src="/asset/imageHerosection.png" alt="" class="flex justify-center items-center w-[90%] ">
+                </div>
+            </div>
+        </section>
 
-<section id="blog" class="bg-gray-100 w-[100vw] mt-[50px] pt-[50px] pl-[70px]">
-    <div class="flex flex-col relative ">
-        <h2 class="text-black text-4xl font-bold">Tout ce dont vous avez besoin,<br>
-           <span class="text-green-400"> en un seul endroit.</span>
-        </h2>
-        <i class="fa-solid fa-bars menuBurger2  text-2xl absolute left-[] top-[62%]  opacity-0 "></i>
-        <ul class="navigationServicesClick  flex justify-between w-[50vw] py-[50px] ">
-            <li>
-                <a href="#" class="blogLink font-bold relative">Formation</a>
-            </li>
-            <li>
-                <a href="#" class="font-bold">Graphisme</a>
-            </li>
-            <li>
-                <a href="#" class="font-bold">Maintenance</a>
-            </li>
-            <li>
-                <a href="#" class="font-bold">Montage et trucage</a>
-            </li>
-            <li>
-                <a href="#" class="font-bold">Cours</a>
-            </li>
-            <li>
-                <a href="#" class="font-bold">Docs PDF</a>
-            </li>
-        </ul>
-    </div>
+        <section id="blog" class="bg-gray-100 w-[100vw] mt-[50px] pt-[50px] pl-[70px]">
+            <div class="flex flex-col relative ">
+                <h2 class="text-black text-4xl font-bold">Tout ce dont vous avez besoin,<br>
+                    <span class="text-green-400"> en un seul endroit.</span>
+                </h2>
+                <i class="fa-solid fa-bars menuBurger2  text-2xl absolute left-[] top-[62%]  opacity-0 "></i>
+                <ul class="navigationServicesClick  flex justify-between w-[50vw] py-[50px] ">
+                    <li>
+                        <a href="#" class="blogLink font-bold relative">Formation</a>
+                    </li>
+                    <li>
+                        <a href="#" class="font-bold">Graphisme</a>
+                    </li>
+                    <li>
+                        <a href="#" class="font-bold">Maintenance</a>
+                    </li>
+                    <li>
+                        <a href="#" class="font-bold">Montage et trucage</a>
+                    </li>
+                    <li>
+                        <a href="#" class="font-bold">Cours</a>
+                    </li>
+                    <li>
+                        <a href="#" class="font-bold">Docs PDF</a>
+                    </li>
+                </ul>
+            </div>
 
-<div class="container-blog flex justify-center gap-4 pl-[0] pb-[100px]  mr-[70px]  flex-wrap  ">
-    <div class="flex flex-col rounded h-[350px]  bg-white relative boxLangage w-[350px] ">
-        <img src="/asset/vue-js.jpeg" alt="" class="w-[100%] h-[200px]">
-    <h3 class="font-bold text-1.5xl pl-[10px]">Les bases de Vue.js</h3>
-    <p class=" p-[15px]">Vue.js est un framework JavaScript
-        progressif utilisé pour construire des
-        interfaces utilisateur et des applications web.</p>
-       
-</div>
-<div class="flex flex-col rounded h-[350px] bg-white relative boxLangage w-[350px] ">
-    <img src="/asset/imagesPHP.jpeg" alt="" class="w-[100%] h-[200px]">
-    <h3 class="font-bold text-1.5xl pl-[10px]">Les bases de Vue.js</h3>
-    <p class=" p-[15px]">Vue.js est un framework JavaScript
-        progressif utilisé pour construire des
-        interfaces utilisateur et des applications web.</p>
-    
-</div>
-<div class="flex flex-col rounded h-[350px] bg-white relative boxLangage w-[350px]">
-    <img src="/asset/tailwind-css.jpg" alt="" class="w-[100%] h-[200px]">
-    <h3 class="font-bold text-1.5xl pl-[10px]">Les bases de Vue.js</h3>
-    <p class=" p-[15px]">Vue.js est un framework JavaScript
-        progressif utilisé pour construire des
-        interfaces utilisateur et des applications web.</p>
-      
-</div>
-<div class=" flex flex-col rounded h-[350px] bg-white relative boxLangage w-[350px] ">
-    <img src="/asset/tailwind.webp" alt="" class="w-[100%] h-[200px]">
-    <h3 class="font-bold text-1.5xl pl-[10px] ">Les bases de Vue.js</h3>
-    <p class=" p-[15px]">Vue.js est un framework JavaScript
-        progressif utilisé pour construire des
-        interfaces utilisateur et des applications web.</p>
-       
-</div>
+            <div class="container-blog flex justify-center gap-4 pl-[0] pb-[100px]  mr-[70px]  flex-wrap  ">
+                <div class="flex flex-col rounded h-[350px]  bg-white relative boxLangage w-[350px] ">
+                    <img src="/asset/vue-js.jpeg" alt="" class="w-[100%] h-[200px]">
+                    <h3 class="font-bold text-1.5xl pl-[10px]">Les bases de Vue.js</h3>
+                    <p class=" p-[15px]">Vue.js est un framework JavaScript
+                        progressif utilisé pour construire des
+                        interfaces utilisateur et des applications web.</p>
 
+                </div>
+                <div class="flex flex-col rounded h-[350px] bg-white relative boxLangage w-[350px] ">
+                    <img src="/asset/imagesPHP.jpeg" alt="" class="w-[100%] h-[200px]">
+                    <h3 class="font-bold text-1.5xl pl-[10px]">Les bases de Vue.js</h3>
+                    <p class=" p-[15px]">Vue.js est un framework JavaScript
+                        progressif utilisé pour construire des
+                        interfaces utilisateur et des applications web.</p>
 
-</div>
+                </div>
+                <div class="flex flex-col rounded h-[350px] bg-white relative boxLangage w-[350px]">
+                    <img src="/asset/tailwind-css.jpg" alt="" class="w-[100%] h-[200px]">
+                    <h3 class="font-bold text-1.5xl pl-[10px]">Les bases de Vue.js</h3>
+                    <p class=" p-[15px]">Vue.js est un framework JavaScript
+                        progressif utilisé pour construire des
+                        interfaces utilisateur et des applications web.</p>
 
+                </div>
+                <div class=" flex flex-col rounded h-[350px] bg-white relative boxLangage w-[350px] ">
+                    <img src="/asset/tailwind.webp" alt="" class="w-[100%] h-[200px]">
+                    <h3 class="font-bold text-1.5xl pl-[10px] ">Les bases de Vue.js</h3>
+                    <p class=" p-[15px]">Vue.js est un framework JavaScript
+                        progressif utilisé pour construire des
+                        interfaces utilisateur et des applications web.</p>
 
-</section>
-<section class="mt-[100px] pt[40px] pl-[70px]" id="">
-    <h2 class="text-3xl font-bold pb-[50px]">Actualités du Développement Web :   <span class="text-green-400">Tendances,</span><br>
-            <span class="text-green-400">Design et Optimisation</span>
-     </h2>
+                </div>
 
 
-<div class="containerActualite grid grid-cols-2  min-h-[85vh] pb-[50px] ">
-    <div class="text ">
-    <img src="/asset/imagesPHP.jpeg" alt="" class="h-[400px] w-[400px] rounded-3xl">
-    <h4 class="font-bold text-2xl">Lorem ipsum dolor sit amet consectetur  elit. Minima, ipsum?</h4>
-    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, similique animi. Corrupti, . Cupiditate deleniti iusto cum accusamus! Eveniet, illo? <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, natus.</p>
-    <div class="flex justify-start items-center g-[30px]">
-        <p class="text-gray-300"><i class="">publié le 10 jan 2025</i>
-        </p>
-        <img src="/asset/devinto-blanc.jpg" alt=""class="w-[100px] h-[80px]">
-    </div>
-</div>
-<div class="pablo flex flex-col gap-2">
-<div class="bro flex justify-center gap-[20px] ">
-    <div class="">
-        <img src="/asset/features-01.jpg" alt="" class="h-[100px] w-[250px] rounded">
-    </div>
-    <div class="">
-        <h4 class="font-bold text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, aspernatur. <br>Lorem ipsum dolor sit amet. Lorem, ipsum.</p>
-        <div class="flex justify-center items-center g-[30px]">
-            <p class="text-gray-300"><i class="">Publié le 10 Jan, 2025
-            </i></p>
-            <img src="/asset/devinto-blanc.jpg" alt="" class="w-[100px] h-[80px]">
-        </div>
-    
-       
-    </div>
-</div>
-<div class="bro flex justify-center gap-[20px] ">
-    <div class="">
-        <img src="/asset/features-01.jpg" alt="" class="h-[100px] w-[250px] rounded">
-    </div>
-    <div class="">
-        <h4 class="font-bold text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, aspernatur. <br>Lorem ipsum dolor sit amet. Lorem, ipsum.</p>
-        <div class="flex justify-center items-center g-[30px]">
-            <p class="text-gray-300"><i class="">Publié le 10 Jan, 2025
-            </i></p>
-            <img src="/asset/devinto-blanc.jpg" alt="" class="w-[100px] h-[80px]">
-        </div>
-    
-       
-    </div>
-</div>
-<div class="bro flex justify-center gap-[20px] ">
-    <div class="">
-        <img src="/asset/features-01.jpg" alt="" class="h-[100px] w-[250px] rounded">
-    </div>
-    <div class="">
-        <h4 class="font-bold text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, aspernatur. <br>Lorem ipsum dolor sit amet. Lorem, ipsum.</p>
-        <div class="flex justify-center items-center g-[30px]">
-            <p class="text-gray-300"><i class="">Publié le 10 Jan, 2025
-            </i></p>
-            <img src="/asset/devinto-blanc.jpg" alt="" class="w-[100px] h-[80px]">
-        </div>
-    
-          <a href="#" class="border-2 border-solid border-green-400 rounded-full text-center text-green-400 p-4 font-bold">voir tous les articles</a>
-    </div>
-</div>
-</div>
-</div>
-
-</section>
-<footer class="bg-gray-100  font-[600px]">
-    <div class="containerFooter flex justify-between relative p-[70px]">
-    <div class="">
-        <div class="flex gap-[20px]">
-            <img src="/asset/devinto-blanc-long-png.png" alt="" class="w-[50px] h-[50px]">
-            <h4 class="text-green-400 font-bold text-4xl">
-               DEVINSTO
-           </h4>  
-    </div>
-        <p class="text-justify">Programmation, développement web, high-tech... <br> Avec Devinsto, je partage ma passion pour
-            l'informatique <br> en offrant des solutions complètes : création de sites, design <br> impactant et
-            optimisation digitale, tout en accompagnant <br> l'apprentissage et l'évolution dans un monde
-            numérique <br> en constante transformation</p>
-    </div>
-    <div class="text-start">
-      <h4 class="text-2xl font-bold "> A propos</h4> 
-      <div class=""><a>Notre mission</a></div>
-        
-       <div class=""> <a>Equipe et valeurs</a></div>
-    </div>
-    <div class="text-start">
-        <h4 class="text-2xl font-bold "> Ressources</h4> 
-        <div class="">
-            <a>Blog</a>
-        </div>
-        <div class="">
-            <a>Tutoriel</a>
-        </div>
-        
-        <div class="">
-            <a>Fags</a>
-        </div>
-    </div>
-    <div class="text-start">
-        <h4 class="text-2xl font-bold "> Legal</h4> 
-       <div class="">
-        <a>Politique générales d'utilisation</a>
-    </div> 
-       <div class="">
-        <a>Politique de confidentialité</a>
-    </div>
-       
-    </div>
-   
-      
-    </div>
-    </div>
-    <div class=" flex justify-start flex-wrap g-5 ">
-
-        <div class="copy pb-[50px] pl-[70px] font-bold">
-            <p class="">© 2025 Devinsto.com. Tous droits réservés! Conçu avec ❤ par Devinsto. </p>
-        </div>
-    <!-- </div> -->
-    <div class="flex  gap-5 ml-[30px]">
-        <i class="fa-brands fa-square-x-twitter text-3xl"></i>
-        <i class="fa-brands fa-tiktok text-3xl"></i>
-    </div>
- </div>
-</footer>
-</main>
+            </div>
 
 
-<script src="/javascript/script.js"></script>
+        </section>
+        <section class="mt-[100px] pt[40px] pl-[70px]" id="">
+            <h2 class="text-3xl font-bold pb-[50px]">Actualités du Développement Web : <span
+                    class="text-green-400">Tendances,</span><br>
+                <span class="text-green-400">Design et Optimisation</span>
+            </h2>
+
+
+            <div class="containerActualite grid grid-cols-2  min-h-[85vh] pb-[50px] ">
+                <div class="text ">
+                    <img src="/asset/imagesPHP.jpeg" alt="" class="h-[400px] w-[400px] rounded-3xl">
+                    <h4 class="font-bold text-2xl">Lorem ipsum dolor sit amet consectetur elit. Minima, ipsum?</h4>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, similique animi.
+                        Corrupti, . Cupiditate deleniti iusto cum accusamus! Eveniet, illo? <br>Lorem ipsum dolor sit
+                        amet consectetur adipisicing elit. Quibusdam, natus.</p>
+                    <div class="flex justify-start items-center g-[30px]">
+                        <p class="text-gray-300"><i class="">publié le 10 jan 2025</i>
+                        </p>
+                        <img src="/asset/devinto-blanc.jpg" alt="" class="w-[100px] h-[80px]">
+                    </div>
+                </div>
+                <div class="pablo flex flex-col gap-2">
+                    <div class="bro childPablo flex justify-center gap-[20px] ">
+                        <div class="">
+                            <img src="/asset/features-01.jpg" alt="" class="h-[100px] w-[250px] rounded">
+                        </div>
+                        <div class="">
+                            <h4 class="font-bold text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nihil,</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, aspernatur. <br>Lorem
+                                ipsum dolor sit amet. Lorem, ipsum.</p>
+                            <div class="flex justify-center items-center g-[30px]">
+                                <p class="text-gray-300"><i class="">Publié le 10 Jan, 2025
+                                    </i></p>
+                                <img src="/asset/devinto-blanc.jpg" alt="" class="w-[100px] h-[80px]">
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="bro childPablo flex justify-center gap-[20px] ">
+                        <div class="">
+                            <img src="/asset/features-01.jpg" alt="" class="h-[100px] w-[250px] rounded">
+                        </div>
+                        <div class="">
+                            <h4 class="font-bold text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nihil,</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, aspernatur. <br>Lorem
+                                ipsum dolor sit amet. Lorem, ipsum.</p>
+                            <div class="flex justify-center items-center g-[30px]">
+                                <p class="text-gray-300"><i class="">Publié le 10 Jan, 2025
+                                    </i></p>
+                                <img src="/asset/devinto-blanc.jpg" alt="" class="w-[100px] h-[80px]">
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="bro childPablo flex justify-center gap-[20px] ">
+                        <div class="">
+                            <img src="/asset/features-01.jpg" alt="" class="h-[100px] w-[250px] rounded">
+                        </div>
+                        <div class="">
+                            <h4 class="font-bold text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nihil,</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, aspernatur. <br>Lorem
+                                ipsum dolor sit amet. Lorem, ipsum.</p>
+                            <div class="flex justify-center items-center g-[30px]">
+                                <p class="text-gray-300"><i class="">Publié le 10 Jan, 2025
+                                    </i></p>
+                                <img src="/asset/devinto-blanc.jpg" alt="" class="w-[100px] h-[80px]">
+                            </div>
+
+                            <a href="#"
+                                class="border-2 border-solid border-green-400 rounded-full text-center text-green-400 p-4 font-bold">voir
+                                tous les articles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <footer class="bg-gray-100  font-[600px]">
+            <div class="containerFooter flex justify-between relative p-[70px] flex-wrap">
+                <div class="">
+                    <div class="flex gap-[20px]">
+                        <img src="/asset/devinto-blanc-long-png.png" alt="" class="w-[50px] h-[50px]">
+                        <h4 class="text-green-400 font-bold text-4xl">
+                            DEVINSTO
+                        </h4>
+                    </div>
+                    <p class="text-justify">Programmation, développement web, high-tech... <br> Avec Devinsto, je
+                        partage ma passion pour
+                        l'informatique <br> en offrant des solutions complètes : création de sites, design <br>
+                        impactant et
+                        optimisation digitale, tout en accompagnant <br> l'apprentissage et l'évolution dans un monde
+                        numérique <br> en constante transformation</p>
+                </div>
+                <div class="text-start">
+                    <h4 class="text-2xl font-bold "> A propos</h4>
+                    <div class=""><a>Notre mission</a></div>
+
+                    <div class=""> <a>Equipe et valeurs</a></div>
+                </div>
+                <div class="text-start">
+                    <h4 class="text-2xl font-bold "> Ressources</h4>
+                    <div class="">
+                        <a>Blog</a>
+                    </div>
+                    <div class="">
+                        <a>Tutoriel</a>
+                    </div>
+
+                    <div class="">
+                        <a>Fags</a>
+                    </div>
+                </div>
+                <div class="text-start">
+                    <h4 class="text-2xl font-bold "> Legal</h4>
+                    <div class="">
+                        <a>Politique générales d'utilisation</a>
+                    </div>
+                    <div class="">
+                        <a>Politique de confidentialité</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+            </div>
+            <div class=" flex justify-start flex-wrap g-5 ">
+
+                <div class="copy pb-[50px] pl-[70px] font-bold">
+                    <p class="">© 2025 Devinsto.com. Tous droits réservés! Conçu avec ❤ par Devinsto. </p>
+                </div>
+                <!-- </div> -->
+                <div class="flex  gap-5 ml-[30px]">
+                    <i class="fa-brands fa-square-x-twitter text-3xl"></i>
+                    <i class="fa-brands fa-tiktok text-3xl"></i>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+    <script src="/javascript/script.js"></script>
 </body
