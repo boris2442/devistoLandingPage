@@ -662,6 +662,14 @@ video {
   width: 250px;
 }
 
+.w-\[350px\] {
+  width: 350px;
+}
+
+.w-\[400px\] {
+  width: 400px;
+}
+
 .w-\[50px\] {
   width: 50px;
 }
@@ -672,10 +680,6 @@ video {
 
 .w-\[90\%\] {
   width: 90%;
-}
-
-.w-\[350px\] {
-  width: 350px;
 }
 
 .grid-cols-2 {
@@ -1036,5 +1040,14 @@ video {
     width: 200px;
     padding-left: 20px;
     background-color:rgb(34, 197, 14) ;
+  }
+}
+
+@media screen  and (max-width:980px){
+  .containerActualite{
+    display: flex;
+    margin: 0 auto;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
   }
 }

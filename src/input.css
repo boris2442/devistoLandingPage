@@ -123,4 +123,12 @@
     background-color:rgb(34, 197, 14) ;
 }
 }
+@media screen  and (max-width:980px){
+    .containerActualite{
+        display: flex;
+        margin: 0 auto;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+}
 }
