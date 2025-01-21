@@ -130,11 +130,18 @@
         /* flex-direction: column; */
         flex-wrap: wrap;
     }
+}
     @media screen  and (max-width:500px){
         .childPablo{
             display: flex;
             flex-direction: column;
         }
     }
-}
+    @media screen and ( max-width:724px ) {
+     .heroSection{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+     }
+    }
 }
