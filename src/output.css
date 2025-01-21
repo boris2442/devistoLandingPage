@@ -562,6 +562,10 @@ video {
   position: relative;
 }
 
+.left-\[\] {
+  left: ;
+}
+
 .right-\[-100px\] {
   right: -100px;
 }
@@ -570,12 +574,12 @@ video {
   top: 10px;
 }
 
-.left-0 {
-  left: 0px;
+.top-\[40px\] {
+  top: 40px;
 }
 
-.left-\[30px\] {
-  left: 30px;
+.ml-\[30px\] {
+  margin-left: 30px;
 }
 
 .mr-\[70px\] {
@@ -708,6 +712,10 @@ video {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .gap-\[20px\] {
@@ -1009,6 +1017,7 @@ video {
     z-index: 3;
     transition: 1s ease-in-out;
     left: 0;
+    width: 200px;
     padding-left: 20px;
     background-color:rgb(34, 197, 14) ;
     flex-direction: column;
