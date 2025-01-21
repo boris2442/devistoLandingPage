@@ -606,6 +606,14 @@ video {
   margin-top: 50px;
 }
 
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
+.mt-\[40px\] {
+  margin-top: 40px;
+}
+
 .flex {
   display: flex;
 }
@@ -768,6 +776,10 @@ video {
 
 .gap-\[20px\] {
   gap: 20px;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
 }
 
 .overflow-x-hidden {
