@@ -570,6 +570,14 @@ video {
   top: 10px;
 }
 
+.left-0 {
+  left: 0px;
+}
+
+.left-\[30px\] {
+  left: 30px;
+}
+
 .mr-\[70px\] {
   margin-right: 70px;
 }
@@ -978,5 +986,31 @@ video {
     right: 20px;
     top: 10px;
     cursor: pointer;
+  }
+}
+
+@media screen and ( max-width:1100px ){
+  .navigationServices{
+    position: absolute;
+    display: flex;
+    height: 400px;
+    transition: 1s ease-in-out;
+    z-index: 3;
+    left: -100%;
+    padding-left: 20px;
+    background-color:rgb(34, 197, 14) ;
+    flex-direction: column;
+  }
+
+  .navigationServicesClick{
+    position: absolute;
+    display: flex;
+    height: 400px;
+    z-index: 3;
+    transition: 1s ease-in-out;
+    left: 0;
+    padding-left: 20px;
+    background-color:rgb(34, 197, 14) ;
+    flex-direction: column;
   }
 }
