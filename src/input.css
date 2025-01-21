@@ -86,16 +86,13 @@
 }
 
 @media screen and ( max-width:1100px ){
-.navigationServices{
+
+#blog .fa-bars{
+    opacity: 1;
     position: absolute;
-    display: flex;
-    height: 400px;
-    transition: 1s ease-in-out;
-    z-index: 3;
-    left: -100%;
-    padding-left: 20px;
-    background-color:rgb(34, 197, 14) ;
-    flex-direction: column;
+    top: 13px;
+    cursor: pointer;
+    left: -25px;
 }
 .navigationServicesClick{
     position: absolute;
@@ -103,8 +100,8 @@
     height: 400px;
     z-index: 3;
     transition: 1s ease-in-out;
-    left: 0;
- 
+    left: -100%;
+    top: 50px;
     width: 200px;
     padding-left: 20px;
     background-color:rgb(34, 197, 14) ;
@@ -112,5 +109,18 @@
 }
 
 
+.navigationServices{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    z-index: 3;
+    transition: 1s ease-in-out;
+    left:-10%;
+  top: 50px;
+    width: 200px;
+    padding-left: 20px;
+    background-color:rgb(34, 197, 14) ;
+}
 }
 }

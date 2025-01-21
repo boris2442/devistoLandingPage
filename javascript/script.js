@@ -22,3 +22,11 @@ window.addEventListener("scroll", ()=>{
      remove.style.opacity='0'
      remove.classList.remove("remove2");
 });
+
+
+const burger2=document.querySelector(".menuBurger2 ");
+const navigation2=document.querySelector(".navigationServicesClick ");
+
+burger2.addEventListener("click", ()=>{
+    navigation2.classList.toggle("navigationServices");
+})
