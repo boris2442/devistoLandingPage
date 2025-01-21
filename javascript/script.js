@@ -34,7 +34,7 @@ burger2.addEventListener("click", ()=>{
 
 window.addEventListener("scroll", ()=>{
     navigation2.classList.add("navigationServicesClick"); 
-    navigation2.classList.remove("navigationServices")
+    navigation2.classList.remove("navigationServices");
 });
 
 const sr=ScrollReveal({
