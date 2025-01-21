@@ -43,4 +43,4 @@ const sr=ScrollReveal({
     distance:'30px'
 })
 
-sr.reveal(".copy, .footerContainer, .childPablo, .pablo, .container-blog, .navigationServicesClick, .heroSection, .text", {interval:200})
+sr.reveal(".copy, .footerContainer, .childPablo, .pablo, .container-blog, .navigationServicesClick, .heroSection, .text", {interval:200});
