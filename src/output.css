@@ -674,6 +674,10 @@ video {
   width: 90%;
 }
 
+.w-\[350px\] {
+  width: 350px;
+}
+
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -1027,7 +1031,7 @@ video {
     height: 400px;
     z-index: 3;
     transition: 1s ease-in-out;
-    left:-10%;
+    left:-5%;
     top: 50px;
     width: 200px;
     padding-left: 20px;
