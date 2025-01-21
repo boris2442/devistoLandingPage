@@ -28,7 +28,7 @@ const burger2=document.querySelector(".menuBurger2 ");
 const navigation2=document.querySelector(".navigationServicesClick ");
 
 burger2.addEventListener("click", ()=>{
-    navigation2.classList.toggle("navigationServices");
+    navigation2.classList.add("navigationServices");
 })
 
 window.addEventListener("scroll", ()=>{
