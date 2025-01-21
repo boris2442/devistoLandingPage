@@ -28,13 +28,14 @@ const burger2=document.querySelector(".menuBurger2 ");
 const navigation2=document.querySelector(".navigationServicesClick ");
 
 burger2.addEventListener("click", ()=>{
-    navigation2.classList.add("navigationServices");
-})
+    navigation2.classList.toggle("navigationServices");
+
+});
 
 window.addEventListener("scroll", ()=>{
     navigation2.classList.add("navigationServicesClick"); 
     navigation2.classList.remove("navigationServices")
-})
+});
 
 const sr=ScrollReveal({
     direction:'vertical',
