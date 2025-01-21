@@ -50,7 +50,7 @@
         display: flex;
         top: 56px;
         right: -100%;
-        
+        z-index: 20;
         flex-direction: column;
         background-color: rgb(34, 197, 14);
         transition: 1s ease-in-out;
@@ -69,6 +69,7 @@
         display: flex;
         top: 56px;
         right: 0;
+        z-index: 30;
         transition: 1s ease-in-out;
         flex-direction: column;
         background-color: rgb(34, 197, 14);
@@ -98,7 +99,7 @@
     position: absolute;
     display: flex;
     height: 400px;
-    z-index: 3;
+    z-index: 30;
     transition: 1s ease-in-out;
     left: -100%;
     top: 50px;

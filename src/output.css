@@ -666,8 +666,8 @@ video {
   width: 250px;
 }
 
-.w-\[350px\] {
-  width: 350px;
+.w-\[330px\] {
+  width: 330px;
 }
 
 .w-\[400px\] {
@@ -684,10 +684,6 @@ video {
 
 .w-\[90\%\] {
   width: 90%;
-}
-
-.w-\[330px\] {
-  width: 330px;
 }
 
 .grid-cols-2 {
@@ -979,6 +975,7 @@ video {
     display: flex;
     top: 56px;
     right: -100%;
+    z-index: 20;
     flex-direction: column;
     background-color: rgb(34, 197, 14);
     transition: 1s ease-in-out;
@@ -998,6 +995,7 @@ video {
     display: flex;
     top: 56px;
     right: 0;
+    z-index: 30;
     transition: 1s ease-in-out;
     flex-direction: column;
     background-color: rgb(34, 197, 14);
@@ -1026,7 +1024,7 @@ video {
     position: absolute;
     display: flex;
     height: 400px;
-    z-index: 3;
+    z-index: 30;
     transition: 1s ease-in-out;
     left: -100%;
     top: 50px;
